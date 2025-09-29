@@ -24,7 +24,7 @@ CREATE TABLE usuarios (
 CREATE TABLE emprestimos(
     IDemprestimos INT PRIMARY KEY AUTO_INCREMENT,
     IDusuario INT NOT NULL,
-    FOREIGN KEY (IDusuario) REFERENCES usuario(IDusuario),
+    FOREIGN KEY (IDusuario) REFERENCES usuarios(IDusuario),
     IDlivro INT NOT NULL,
     FOREIGN KEY (IDlivro) REFERENCES livros(IDlivro),
     dataEmprestimo DATE NOT NULL,

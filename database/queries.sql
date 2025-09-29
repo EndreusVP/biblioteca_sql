@@ -1,6 +1,6 @@
 USE biblioteca;
 
-SELECT l.titulo, a.nome 
-FROM l AS livros
-JOIN a AS autores
-ON l.IDautor = a.IDautor 
+SELECT a.nome, l.titulo
+FROM a AS autores
+JOIN l AS livros
+ON a.IDautor = l.IDautor;
