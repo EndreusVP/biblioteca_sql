@@ -15,7 +15,7 @@ VALUES(
     'INGLES'
 ),(
     NULL,
-    'BRENDA'
+    'BRENDA',
     'MEXICANA'
 ),(
     NULL,
@@ -62,7 +62,7 @@ VALUES(
 );
 
 INSERT INTO emprestimos
-VALUE(
+VALUES(
     NULL,
     2,
     5,
